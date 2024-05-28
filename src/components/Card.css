@@ -1,0 +1,33 @@
+.card_container {
+  border: 1px solid black;
+}
+.card_container .title {
+  text-align: left;
+  margin: 2px 4px;
+}
+.card_container .card_container_bottom {
+  display: flex;
+  /* background-color: red; */
+  margin: 4px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_container .card_container_bottom .card_container_bottom_left {
+  display: flex;
+  margin-left: 2px;
+}
+.deleteIcon {
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 4px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  margin: 0px 10px;
+}

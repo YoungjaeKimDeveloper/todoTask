@@ -1,0 +1,51 @@
+.header_container {
+  border: 0.2px solid black;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.header_container .header_top input {
+  width: 80%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #d6d2d2;
+  border: none;
+}
+.header_container .header_bottom {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+}
+.header_container .header_bottom .header_bottom_left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.header_container .header_bottom .header_bottom_right {
+  display: flex;
+  justify-content: center;
+  padding: 2px 4px;
+  cursor: pointer;
+  width: 50%;
+}
+.header_container .header_bottom .header_bottom_right select {
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 3px;
+  cursor: grab;
+  margin-right: 20px;
+}
+.header_container .header_bottom .header_bottom_right button {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: grab;
+  margin-right: 20px;
+}

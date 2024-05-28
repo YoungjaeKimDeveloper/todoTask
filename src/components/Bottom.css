@@ -1,0 +1,9 @@
+.column-container {
+  display: flex;
+  border: 1px solid black;
+  width: 60%;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  width: 100%;
+  /* background-color: pink; */
+}

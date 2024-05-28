@@ -1,0 +1,16 @@
+.tag {
+  border: 1px solid black;
+  padding: 20px 30px;
+  margin-right: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 10px;
+  width: 45px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
